@@ -1,0 +1,8 @@
+cloudya:
+  auth:
+    username: "foo@bar.biz"
+    password: "mySecretPassword"
+  cfp:
+    alias: "Foo"
+    number: 1
+    phonenumber: "+4915012345678"
