@@ -13,11 +13,11 @@ Cloudya is a cloud based PBX product provided by the german company NFON.
 1. Python 3 Packages: pyyaml, requests
 
 
-# Functions
+## Functions
 
-## Automate callforwardings
+### Automate callforwardings
 
-### Write you own script
+#### Write you own script
 
 ```
 #!/usr/bin/env python3
@@ -26,11 +26,11 @@ cloudya = Cloudya(auth_user='foo@bar.com', auth_pass='secret')
 cloudya.setup_cfp(cfp_alias='Foo', cfp_number=1, cfp_phonenumber='+49891234567')
 ```
 
-### Use existing script `update_cfp.py`
+#### Use existing script [update_cfp.py](update_cfp.py)
 
-1. Clone file `config.yaml.dist` to `config.yaml`
+1. Clone file [config.yaml.dist](config.yaml.dist) to `config.yaml`
 1. Update parameters in `config.yaml` to yours
-1. Execute `update_cfp.py`
+1. Execute [update_cfp.py](update_cfp.py)
 
 ```
 $ ./update_cfp.py
@@ -46,7 +46,7 @@ $ ./update_cfp.py
 2022-04-05 01:42:28,228 INFO Logout successful
 ```
 
-# License
+## License
 
 This project is licensed under GNU General Public License v3.0
 
