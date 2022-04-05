@@ -10,7 +10,7 @@ Cloudya is a cloud based PBX product provided by the german company NFON.
 ## Requirements
 
 1. Python 3
-1. Python 3 Modules: yaml, json, logging, requests
+1. Python 3 Packages: pyyaml, requests
 
 
 # Functions

@@ -1,0 +1,7 @@
+# Required Packages
+
+## Used to communicated with the api
+requests
+
+## Used in `update_cfp.py` to fetch config
+pyyaml
